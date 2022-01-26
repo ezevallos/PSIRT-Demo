@@ -8,7 +8,7 @@ def sendMessage(criticals, t):
   # Build message
   message = '# Security Incident Value: ' + t + '\n## Message: ' + criticals
   # Payload for POST Request
-  payload={'roomId': 'Y2lzY29zcGFyazovL3VzL1JPT00vNWM3YmU2MTAtODI4Zi0xMWViLWI0Y2QtYTlhZGFjOTc1YjUy','markdown':message}
+  payload={'roomId': '','markdown':message}
   headers = {
     'Accept': 'application/json',
     'Authorization': 'Bearer ' +str(BOT_TOKEN)
